@@ -42,4 +42,4 @@ I welcome contributions!
 
 License
 
-This project is licensed under the Eclipse Public License - v 2.0.
+This project is licensed under the APACHE License - v 2.0.
