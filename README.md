@@ -30,7 +30,7 @@ python ADAT_co.py
 
 Data
 
-
+Gaia data were used for analysis, they are available. Here is the description of the data access ways: https://www.cosmos.esa.int/web/gaia/data-access
 
 Why Understanding Common Stellar Origin Matters
 
