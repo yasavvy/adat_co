@@ -25,7 +25,7 @@ data = hdulist[1].data
 hdulist.close()
 
 #Load isochrones (you are welcome to use my file "Isochrones" in csv)
-iso_file_path = '/your path.csv'  #Use your path, I uploaded Gaia data from my drive
+iso_file_path = '/your path.csv'  #Use your path, I uploaded data from my drive
 iso_data = pd.read_csv(iso_file_path)
 
 #Coordinates for clustering
