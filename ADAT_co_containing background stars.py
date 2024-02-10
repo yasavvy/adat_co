@@ -9,9 +9,7 @@ from mpl_toolkits.mplot3d import Axes3D
 def plot_cluster_with_isochrone(ax, cluster_mask, data, iso_data, coord_pair, cluster_color, label):
     ax.scatter(data[coord_pair[0]][~cluster_mask], data[coord_pair[1]][~cluster_mask], color='gray', label='Other Stars', s=5, alpha=0.7)
     ax.scatter(data[coord_pair[0]][cluster_mask], data[coord_pair[1]][cluster_mask], color='red', label='Cluster Stars', s=5, alpha=0.7)
-
     ax.plot(iso_data['G_BPmag'], iso_data['Gmag'], color='darkblue', linestyle='dashed', label='Isochrone', linewidth=2)
-
     ax.set_xlabel(coord_pair[0])
     ax.set_ylabel(coord_pair[1])
     ax.legend()
@@ -19,7 +17,6 @@ def plot_cluster_with_isochrone(ax, cluster_mask, data, iso_data, coord_pair, cl
 def plot_cluster_2d(ax, cluster_mask, data, cluster_color, label):
     ax.scatter(data['phot_bp_mean_mag'][~cluster_mask], data['phot_rp_mean_mag'][~cluster_mask], color='gray', label='Other Stars', s=5, alpha=0.7)
     ax.scatter(data['phot_bp_mean_mag'][cluster_mask], data['phot_rp_mean_mag'][cluster_mask], color='red', label='Cluster Stars', s=5, alpha=0.7)
-
     ax.set_xlabel('G_BPmag')
     ax.set_ylabel('G_RPmag')
     ax.legend()
