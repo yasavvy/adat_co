@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ## Installation
 
 Clone the repository.
-git clone https://github.com/elenasavvina/adat_co.git
+git clone https://github.com/yasavvy/adat_co.git
 
 Navigate to the project directory.
 cd ADAT_co
